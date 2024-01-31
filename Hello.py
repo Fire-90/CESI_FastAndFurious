@@ -24,8 +24,8 @@ LOGGER = get_logger(__name__)
 
 def run():
     st.set_page_config(
-        page_title="Hello",
-        page_icon="👋",
+        page_title="Livrable 3",
+        page_icon="🚗",
     )
 
 
