@@ -514,13 +514,16 @@ def run():
                 st.write("Chrono pour tout le circuit :")
                 st.write(round(temps_total, 3),"seconde(s)")
                 st.divider()
-                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente :
+                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente:
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
+                elif v_min_ravin > v_looping or v_min_looping_B > v_pente :
+                    st.subheader("C'EST LE CRASH CRASH !")
+                    st.image("https://i.gifer.com/SqwX.gif")
+                    st.image("https://pa1.aminoapps.com/6825/e33c02e435883599bace42ae25b1e1bbf4cacdb5_hq.gif")
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
-                    st.image("https://i.gifer.com/SqwX.gif")
                 st.divider()
                 st.header("◇ Récapitulatif des vitesses")
 
@@ -647,13 +650,16 @@ def run():
                 st.write("Chrono pour tout le circuit :")
                 st.write(round(temps_total, 3),"seconde(s)")
                 st.divider()
-                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente :
+                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente:
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
+                elif v_min_ravin > v_looping or v_min_looping_B > v_pente :
+                    st.subheader("C'EST LE CRASH CRASH !")
+                    st.image("https://i.gifer.com/SqwX.gif")
+                    st.image("https://pa1.aminoapps.com/6825/e33c02e435883599bace42ae25b1e1bbf4cacdb5_hq.gif")
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
-                    st.image("https://i.gifer.com/SqwX.gif")
                 st.divider()
                 st.header("◇ Récapitulatif des vitesses")
 
