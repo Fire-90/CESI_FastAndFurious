@@ -520,6 +520,7 @@ def run():
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
+                    st.image("https://i.gifer.com/SqwX.gif")
                 st.divider()
                 st.header("◇ Récapitulatif des vitesses")
 
@@ -652,6 +653,7 @@ def run():
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
+                    st.image("https://i.gifer.com/SqwX.gif")
                 st.divider()
                 st.header("◇ Récapitulatif des vitesses")
 
