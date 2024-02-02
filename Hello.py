@@ -514,7 +514,7 @@ def run():
                 st.write("Chrono pour tout le circuit :")
                 st.write(round(temps_total, 3),"seconde(s)")
                 st.divider()
-                if temps_total < 8:
+                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente :
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
                 else:
@@ -646,7 +646,7 @@ def run():
                 st.write("Chrono pour tout le circuit :")
                 st.write(round(temps_total, 3),"seconde(s)")
                 st.divider()
-                if temps_total < 8:
+                if temps_total < 8 and v_min_ravin < v_looping and v_min_looping_B < v_pente :
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
                 else:
