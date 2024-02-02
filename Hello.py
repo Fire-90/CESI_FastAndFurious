@@ -518,9 +518,9 @@ def run():
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
                 elif v_min_ravin > v_looping or v_min_looping_B > v_pente :
-                    st.subheader("C'EST LE CRASH CRASH !")
-                    st.image("https://i.gifer.com/SqwX.gif")
+                    st.subheader("C'EST LE CRASH !")
                     st.image("https://pa1.aminoapps.com/6825/e33c02e435883599bace42ae25b1e1bbf4cacdb5_hq.gif")
+                    st.image("https://i.gifer.com/SqwX.gif")
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
@@ -654,9 +654,9 @@ def run():
                     st.subheader("RECORD BATTU !")
                     st.image("https://forums.pixeltailgames.com/uploads/default/original/3X/d/1/d12d0941862841dad6ffe2281b25aeb8d971f3b0.gif")
                 elif v_min_ravin > v_looping or v_min_looping_B > v_pente :
-                    st.subheader("C'EST LE CRASH CRASH !")
-                    st.image("https://i.gifer.com/SqwX.gif")
+                    st.subheader("C'EST LE CRASH !")
                     st.image("https://pa1.aminoapps.com/6825/e33c02e435883599bace42ae25b1e1bbf4cacdb5_hq.gif")
+                    st.image("https://i.gifer.com/SqwX.gif")
                 else:
                     st.subheader("RECORD RATÉ !")
                     st.image("https://media1.tenor.com/m/fVtFN_1f1HkAAAAC/mario-kart.gif")
